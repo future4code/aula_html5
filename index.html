@@ -8,38 +8,60 @@
     <title>Index</title>
 </head>
 <body>
-    <div id="header">
+    <header>
         <h1>Um blog bacana</h1>
-    </div>
+    </header>
 
-    <div id="menu">
+    <nav>
         <ol>
             <li class="crumb">Menu1</li>
             <li class="crumb">Menu2</li>
             <li class="crumb">Menu3</li>
         </ol>
-    </div>
+    </nav>
 
-    <hr>
-
-    <div>
-        <div class="post">
+    <section>
+        <article>
             <h2>Um post</h2>
+            <audio
+                controls
+                loop="True"
+                src="media/audio_file.mp3">
+            </audio>
             <p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Diuretics paradis num copo é motivis de denguis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Cevadis im ampola pa arma uma pindureta.</p>
-        </div>
+        </article>
 
-        <div class="post">
+        <aside>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Quem num gosta di mim que vai caçá sua turmis! Detraxit consequat et quo num tendi nada. Manduma pindureta quium dia nois paga.</p>
+        </aside>
+
+        <article>
             <h2>Oto post</h2>
+            <video
+                src="media/video_file.mp4"
+                controls
+                width="300px">
+            </video>
             <p>Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Diuretics paradis num copo é motivis de denguis. Pra lá , depois divoltis porris, paradis.</p>
-        </div>
-    </div>
+        </article>
+    </section>
+
+    <section>
+        <form autocomplete="off" action="http://soter.ninja/form-viewer/">
+            <input name="nome" type="text">
+            <input name="email" type="email" value="future">
+            <input name="cor" type="color">
+            <input name="data" type="date">
+            <input type="submit" value="Enviar!">
+        </form>
+    </section>
 
     <hr>
 
-    <div id="footer">
+    <footer>
         <p>Obrigada por ler o meu blog!</p>
         <p>Siga minhas redes sociais</p>
-    </div>
+    </footer>
     
 </body>
 </html>
