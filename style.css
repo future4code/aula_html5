@@ -2,7 +2,7 @@ nav {
     border-bottom: 1px solid black;
 }
 
-.menu ol {
+nav ol {
     list-style-type: none;
     padding-left: 0;
 }
@@ -11,7 +11,7 @@ nav {
     display: inline-block;
 }
 
-/* aside {
+ aside {
     width: 40%;
     padding-left: .5rem;
     margin-left: .5rem;
@@ -19,5 +19,5 @@ nav {
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: #29627e;
-} */
+} 
 
